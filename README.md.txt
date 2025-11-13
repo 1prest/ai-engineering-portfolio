@@ -1,71 +1,59 @@
-# AI Engineering Portfolio
+# 🤖 AI Engineering Portfolio
 
-Welcome to my AI Engineering Portfolio!  
-This repository demonstrates my skills in **Data Analysis, Machine Learning, Natural Language Processing, Computer Vision, Time Series Forecasting, and Model Deployment**. Each project includes a detailed workflow, code, datasets, trained models, and insights.
+Welcome! This repository showcases my **AI Engineering projects**, covering **Data Analysis, Machine Learning, NLP, Computer Vision, Time Series Forecasting, and Deployment**.  
+Each project includes detailed notebooks, datasets, trained models, visualizations, and a README for clarity.
 
 ---
 
-## **Portfolio Projects**
+## 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.10-blue) 
+![PyTorch](https://img.shields.io/badge/PyTorch-orange) 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-orange) 
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-red)
 
-### 01 – Data Analysis & Sales Insights
-- **Description:** Analyzed sales data to uncover trends, patterns, and actionable insights.
-- **Skills:** Pandas, Matplotlib, Seaborn, Exploratory Data Analysis
-- **Deliverables:** Notebook, cleaned dataset, plots, README
+---
+
+## 📂 Portfolio Projects
+
+### 01 – 📊 Data Analysis & Sales Insights
+- **Description:** Analyzed sales data to find trends, patterns, and actionable insights.
+- **Skills:** Pandas, Matplotlib, Seaborn, EDA
 - **Folder:** `01-data-analysis-sales/`
 
----
-
-### 02 – Machine Learning Classification
-- **Description:** Built ML models to classify data and predict outcomes.
-- **Skills:** Scikit-learn, Logistic Regression, Random Forest, Model Evaluation
-- **Deliverables:** Notebook, trained model, dataset, README
+### 02 – 🤖 ML Classification
+- **Description:** Built ML models to classify and predict outcomes.
+- **Skills:** Scikit-learn, Logistic Regression, Random Forest
 - **Folder:** `02-ml-classification/`
 
----
-
-### 03 – NLP Sentiment Classifier
-- **Description:** Multi-class sentiment analysis of product reviews using TF-IDF, Naive Bayes, Logistic Regression, and BERT transformer.
-- **Skills:** NLP, Text Preprocessing, TF-IDF, GridSearchCV, Hugging Face Transformers, PyTorch
-- **Deliverables:** Notebook, baseline and improved models, vectorizers/tokenizers, dataset, README
+### 03 – 🧠 NLP Sentiment Classifier
+- **Description:** Multi-class sentiment analysis of product reviews using TF-IDF, Naive Bayes, Logistic Regression, and BERT.
+- **Skills:** NLP, Hugging Face Transformers, PyTorch
 - **Folder:** `03-nlp-product-reviews/`
 
----
-
-### 04 – Computer Vision – Image Classification
+### 04 – 🎨 Computer Vision – Image Classification
 - **Description:** Image classification using CNNs and transfer learning.
-- **Skills:** CNN, PyTorch/TensorFlow, Transfer Learning, Data Augmentation
-- **Deliverables:** Notebook, trained model, sample predictions, README
+- **Skills:** CNNs, PyTorch, Data Augmentation
 - **Folder:** `04-computer-vision/`
 
----
-
-### 05 – Time Series Forecasting
-- **Description:** Forecasting future values of time series data using LSTM/GRU models.
-- **Skills:** Time Series Analysis, LSTM/GRU, PyTorch/TensorFlow, RMSE/MAE evaluation
-- **Deliverables:** Notebook, trained model, prediction plots, README
+### 05 – 📈 Time Series Forecasting
+- **Description:** Forecasted sequential data using LSTM/GRU models.
+- **Skills:** Time Series Analysis, LSTM/GRU, PyTorch/TensorFlow
 - **Folder:** `05-time-series-forecasting/`
 
----
-
-### 06 – End-to-End Deployment – ML Web App
-- **Description:** Deployed a machine learning model as a web application for interactive predictions.
-- **Skills:** Flask / FastAPI / Streamlit, Docker, Cloud Deployment (AWS/Heroku/Render)
-- **Deliverables:** App code, trained models, Dockerfile, live link, README
+### 06 – 🚀 Deployment – ML Web App
+- **Description:** Deployed ML model as a web application for interactive predictions.
+- **Skills:** Streamlit / Flask, Docker, Cloud Deployment (AWS/Heroku/Render)
 - **Folder:** `06-deployment-web-app/`
 
 ---
 
-## **Tech Stack**
-- Python, Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn, PyTorch, TensorFlow
-- Hugging Face Transformers
-- Flask / FastAPI / Streamlit
-- Docker, AWS / Heroku / Render
+## 💬 Connect with Me
+[LinkedIn](https://www.linkedin.com/in/1prest/) | [GitHub](https://github.com/1prest) | 📧 empet6262@gmail.com
 
 ---
 
-## **How to Use This Portfolio**
-1. Clone the repository:  
+## ⚡ How to Use
+1. Clone the repo:
 ```bash
 git clone https://github.com/1prest/ai-engineering-portfolio.git
-
