@@ -1,0 +1,4 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "./07-docker-deployment/Dockerfile"
+buildContext = "./07-docker-deployment"
