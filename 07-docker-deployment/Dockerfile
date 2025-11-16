@@ -1,16 +1,16 @@
 FROM python:3.10-slim
 
-# Set working directory inside container
+# Create working directory
 WORKDIR /app
 
-# Copy requirements first
-COPY app/requirements.txt .
+# Copy only requirements first (for cache)
+COPY app/requirements.txt /app/requirements.txt
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Copy all API files from app/ into /app
-COPY app/ .
+# Copy the rest of the app
+COPY app /app
 
 # Expose API port
 EXPOSE 8000
