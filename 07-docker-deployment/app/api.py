@@ -4,7 +4,7 @@ import pickle
 app = FastAPI()
 
 # Load model at startup
-with open("model/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 @app.get("/")
