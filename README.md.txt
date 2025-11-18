@@ -46,6 +46,14 @@ Each project includes detailed notebooks, datasets, trained models, visualizatio
 - **Skills:** Streamlit / Flask, Docker, Cloud Deployment (AWS/Heroku/Render)
 - **Folder:** `06-deployment-web-app/`
 
+### **07 — Dockerized AI API (Local Container Deployment)**
+
+**Skills:** Docker, Containerization, API Engineering
+
+* Containerized the API with a production Dockerfile
+* Successfully built and ran the model inside Docker
+* Set up CI workflow to validate Docker builds in GitHub Actions
+
 ---
 
 ## 💬 Connect with Me
