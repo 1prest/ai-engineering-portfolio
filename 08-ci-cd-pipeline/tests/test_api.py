@@ -1,6 +1,9 @@
-import requests
+from fastapi.testclient import TestClient
+from app.api import app
 
-def test_root():
-    r = requests.get("http://localhost:8000/")
-    assert r.status_code == 200
-    assert r.json() == {"message": "CI/CD pipeline working!"}
+client = TestClient(app)
+
+def test_health():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "API is working!"}
